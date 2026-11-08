@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#8a7a5a" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="marsh" width="12" height="8" patternUnits="userSpaceOnUse">
+      <line x1="1" y1="6" x2="5" y2="6" stroke="#5a7a6a" stroke-width="1"/><line x1="7" y1="3" x2="11" y2="3" stroke="#5a7a6a" stroke-width="1"/>
+    </pattern>
+    <pattern id="seam" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+      <line x1="0" y1="5" x2="10" y2="5" stroke="#b89a30" stroke-width="1.6"/>
+    </pattern>
+    <pattern id="coal" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.1" fill="#3a3a3a"/>
+    </pattern>
+    <pattern id="grain" width="10" height="10" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="5" x2="10" y2="5" stroke="#b8a860" stroke-width="0.7"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6a7a8a"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="900" fill="#f3ead6"/>
+  <rect x="14" y="14" width="1172" height="872" fill="none" stroke="#5a4a32" stroke-width="2"/>
+  <rect x="20" y="20" width="1160" height="860" fill="none" stroke="#5a4a32" stroke-width="0.8"/>
+  <text x="600" y="56" text-anchor="middle" font-size="28" fill="#3a2e1c" font-weight="bold">The Brass Concord and the Veiled Range</text>
+  <text x="600" y="80" text-anchor="middle" font-size="15" fill="#5a4a32" font-style="italic">a sketch map of the wider world for the draft · north is up · DRAFT 2026-11-08</text>
+
+  <!-- SHELF SEA, west and north-west -->
+  <path d="M30,100 L330,100 L300,200 L240,330 L220,470 L250,620 L300,760 L330,870 L30,870 Z" fill="#b9c6cc"/>
+  <g stroke="#8fa3ad" stroke-width="1" fill="none" opacity="0.8">
+    <path d="M60,180 q20,-8 40,0 t40,0 t40,0"/><path d="M50,300 q20,-8 40,0 t40,0 t40,0"/><path d="M60,430 q20,-8 40,0 t40,0"/><path d="M70,560 q20,-8 40,0 t40,0 t40,0"/><path d="M80,700 q20,-8 40,0 t40,0 t40,0"/><path d="M100,820 q20,-8 40,0 t40,0"/>
+  </g>
+  <text x="90" y="250" font-size="22" fill="#4a5a66" font-weight="bold" letter-spacing="2">THE SHELF SEA</text>
+  <text x="90" y="272" font-size="12" fill="#4a5a66" font-style="italic">cold, grey, no harbour; charted as grey beyond</text>
+  <!-- cliffs: ticks along the sea edge -->
+  <g stroke="#4a3a2a" stroke-width="1.2">
+    <line x1="330" y1="100" x2="322" y2="112"/><line x1="312" y1="160" x2="304" y2="172"/><line x1="290" y1="230" x2="282" y2="242"/><line x1="262" y1="300" x2="254" y2="312"/><line x1="240" y1="380" x2="232" y2="392"/><line x1="228" y1="460" x2="220" y2="472"/><line x1="236" y1="540" x2="228" y2="552"/><line x1="260" y1="640" x2="252" y2="652"/><line x1="285" y1="720" x2="277" y2="732"/><line x1="312" y1="800" x2="304" y2="812"/>
+  </g>
+
+  <!-- THE VEILED RANGE: crescent -->
+  <path d="M330,100 L560,100 C600,200 580,320 600,440 C615,560 590,680 600,800 L560,870 L330,870 C300,760 250,620 220,470 C240,330 300,200 330,100 Z" fill="#cdbfa0" stroke="#7a6a4a" stroke-width="2"/>
+  <path d="M330,100 L560,100 C600,200 580,320 600,440 C615,560 590,680 600,800 L560,870 L330,870 C300,760 250,620 220,470 C240,330 300,200 330,100 Z" fill="url(#hatch)" opacity="0.55"/>
+  <g stroke="#6a5a3a" stroke-width="1.3" fill="none" opacity="0.8">
+    <path d="M350,175 l30,-30 l25,35 l30,-40 l30,30 l30,-30 l35,45 l30,-35"/>
+    <path d="M300,300 l30,-35 l25,35 l30,-45 l35,40 l30,-30 l35,45 l30,-35 l35,30"/>
+    <path d="M270,460 l30,-35 l25,40 l30,-45 l35,40 l30,-30 l35,45 l30,-35 l40,35 l35,-40"/>
+    <path d="M290,620 l30,-35 l25,40 l30,-45 l35,40 l30,-30 l35,45 l30,-35 l40,35"/>
+    <path d="M330,780 l30,-35 l25,40 l30,-45 l35,40 l30,-30 l35,45 l30,-35"/>
+  </g>
+  <text x="446" y="128" text-anchor="middle" font-size="17" fill="#4a3a22" font-weight="bold" letter-spacing="2">THE VEILED RANGE</text>
+  <!-- the seven Vales -->
+  <g font-size="11" fill="#2a3a1a" text-anchor="middle">
+    <ellipse cx="420" cy="215" rx="14" ry="9" fill="#a9c48a" stroke="#4a6a2a"/><text x="420" y="201">I</text>
+    <ellipse cx="380" cy="300" rx="14" ry="9" fill="#a9c48a" stroke="#4a6a2a"/><text x="380" y="286">II</text>
+    <ellipse cx="450" cy="370" rx="14" ry="9" fill="#a9c48a" stroke="#4a6a2a"/><text x="450" y="356">III</text>
+    <ellipse cx="410" cy="455" rx="18" ry="11" fill="#8fb870" stroke="#2a4a1a" stroke-width="1.6"/><text x="410" y="441" font-weight="bold">IV · Hollow Vale</text>
+    <ellipse cx="360" cy="560" rx="14" ry="9" fill="#a9c48a" stroke="#4a6a2a"/><text x="360" y="546">V</text>
+    <ellipse cx="440" cy="640" rx="14" ry="9" fill="#a9c48a" stroke="#4a6a2a"/><text x="440" y="626">VI</text>
+    <ellipse cx="400" cy="730" rx="14" ry="9" fill="#a9c48a" stroke="#4a6a2a"/><text x="400" y="716">VII</text>
+  </g>
+  <!-- the Scar -->
+  <path d="M428,452 l10,-14 l4,16 Z" fill="#8a3a2a" stroke="#4a1a0a"/>
+
+  <!-- the plain regions -->
+  <path d="M650,110 L1170,110 L1170,440 L900,420 L700,460 L650,440 Z" fill="#ece6cf"/>
+  <!-- TARN MARSHES -->
+  <path d="M600,800 C640,780 700,790 740,820 C760,850 720,870 680,870 L600,870 Z" fill="#c9d4c0"/>
+  <path d="M600,800 C640,780 700,790 740,820 C760,850 720,870 680,870 L600,870 Z" fill="url(#marsh)"/>
+  <text x="640" y="850" font-size="12" fill="#3a5a4a" font-style="italic">the Tarn Marshes</text>
+
+  <!-- aether seam band under the Line -->
+  <path d="M575,120 C615,220 598,330 618,440 C633,560 610,680 618,790 L650,790 C642,680 665,560 650,440 C630,330 647,220 607,120 Z" fill="url(#seam)" opacity="0.7"/>
+  <!-- ASHEN LINE -->
+  <path d="M565,110 C605,210 588,320 608,440 C623,560 600,680 608,800 L600,860" fill="none" stroke="#4a3a2a" stroke-width="2.5" stroke-dasharray="10,6"/>
+  <g fill="#4a3a2a"><circle cx="590" cy="170" r="3.5"/><circle cx="598" cy="260" r="3.5"/><circle cx="596" cy="350" r="3.5"/><circle cx="612" cy="400" r="3.5"/><circle cx="618" cy="520" r="3.5"/><circle cx="607" cy="600" r="3.5"/><circle cx="603" cy="700" r="3.5"/><circle cx="606" cy="760" r="3.5"/></g>
+  <text x="632" y="560" font-size="12" fill="#4a3a2a" font-weight="bold" transform="rotate(86 632 560)">THE ASHEN LINE · ward-cairns</text>
+  <!-- garrison towns -->
+  <rect x="582" y="186" width="12" height="12" fill="#6a5a4a" stroke="#2a1a0a"/><text x="600" y="190" font-size="12" fill="#2a1a0a" font-weight="bold">Grayfold</text><text x="600" y="203" font-size="10" fill="#2a1a0a">northern garrison town, summer moorings</text>
+  <rect x="604" y="452" width="16" height="16" fill="#4a3a2a" stroke="#2a1a0a"/><text x="628" y="438" font-size="14" fill="#2a1a0a" font-weight="bold">CINDERFELL</text><text x="628" y="450" font-size="10" fill="#2a1a0a">frontier city, Frontier Office, Sky-Moorings</text>
+  <rect x="596" y="770" width="12" height="12" fill="#6a5a4a" stroke="#2a1a0a"/><text x="614" y="774" font-size="12" fill="#2a1a0a" font-weight="bold">Tarnwick</text><text x="614" y="787" font-size="10" fill="#2a1a0a">southern garrison town; smugglers' country</text>
+  <!-- Blackpost -->
+  <rect x="582" y="430" width="7" height="7" fill="#6a5a4a" stroke="#2a1a0a"/><text x="540" y="428" font-size="9" fill="#2a1a0a">Blackpost</text>
+
+  <!-- Coalmarch -->
+  <path d="M690,470 C760,440 860,460 900,520 C920,580 860,620 790,610 C720,600 670,540 690,470 Z" fill="#d9d2c0" stroke="#7a6a5a" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <path d="M690,470 C760,440 860,460 900,520 C920,580 860,620 790,610 C720,600 670,540 690,470 Z" fill="url(#coal)" opacity="0.7"/>
+  <text x="712" y="580" font-size="14" fill="#2a2a2a" font-weight="bold">THE COALMARCH</text>
+  <text x="712" y="595" font-size="10" fill="#3a3a3a">pits and spoil-heaps; every frontier boiler's coal</text>
+  <!-- Ember Downs -->
+  <path d="M880,300 C960,260 1060,280 1110,340 C1140,400 1080,450 1000,440 C920,430 860,370 880,300 Z" fill="#e4d9b4" stroke="#9a8a5a" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <path d="M880,300 C960,260 1060,280 1110,340 C1140,400 1080,450 1000,440 C920,430 860,370 880,300 Z" fill="url(#seam)" opacity="0.55"/>
+  <text x="930" y="330" font-size="14" fill="#5a4a1a" font-weight="bold">THE EMBER DOWNS</text>
+  <text x="930" y="345" font-size="10" fill="#5a4a1a">chalk hills over the older seams; the first wells</text>
+  <circle cx="1020" cy="390" r="6" fill="#8a6a2a" stroke="#3a2a0a"/><text x="1032" y="386" font-size="12" fill="#3a2a0a" font-weight="bold">Emberlock</text><text x="1032" y="399" font-size="10" fill="#3a2a0a">the Collegium's mother-house</text>
+  <!-- Lowmeads -->
+  <path d="M900,560 C1000,520 1120,560 1150,640 C1160,720 1080,780 980,770 C900,760 860,660 900,560 Z" fill="#e8e2b8" stroke="#9a9a5a" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <path d="M900,560 C1000,520 1120,560 1150,640 C1160,720 1080,780 980,770 C900,760 860,660 900,560 Z" fill="url(#grain)" opacity="0.8"/>
+  <text x="940" y="600" font-size="14" fill="#5a5a1a" font-weight="bold">THE LOWMEADS</text>
+  <text x="940" y="615" font-size="10" fill="#5a5a1a">bread country; grain and canal; almost no aether in the air</text>
+  <!-- Ironmere lake and capital -->
+  <ellipse cx="1090" cy="700" rx="60" ry="34" fill="#b9c6cc" stroke="#6a8a9a"/>
+  <text x="1090" y="704" text-anchor="middle" font-size="10" fill="#3a4a5a" font-style="italic">the Mere</text>
+  <rect x="1024" y="664" width="16" height="16" fill="#2a1a0a"/><text x="1030" y="658" font-size="14" fill="#2a1a0a" font-weight="bold" text-anchor="middle">IRONMERE</text><text x="965" y="645" font-size="10" fill="#2a1a0a">the capital; the Board of Charters</text>
+  <!-- Southern Reach and Saltgate -->
+  <path d="M760,870 L1170,870 L1170,820 C1100,800 980,810 900,830 C840,845 800,860 760,870 Z" fill="#b9c6cc"/>
+  <text x="1000" y="862" font-size="14" fill="#4a5a66" font-weight="bold" letter-spacing="1">THE SOUTHERN REACH</text>
+  <text x="1170" y="845" text-anchor="end" font-size="10" fill="#4a5a66" font-style="italic">the Salt Republics across the water</text>
+  <rect x="880" y="818" width="12" height="12" fill="#4a3a2a" stroke="#2a1a0a"/><text x="896" y="816" font-size="12" fill="#2a1a0a" font-weight="bold">Saltgate</text><text x="896" y="829" font-size="10" fill="#2a1a0a">the Concord's port</text>
+
+  <!-- Ashwater river -->
+  <path d="M470,440 C520,450 560,455 612,460 C660,470 700,500 740,540 C800,600 860,640 930,700 C990,750 1030,760 1060,730" fill="none" stroke="#4a7aa8" stroke-width="2"/>
+  <text x="846" y="650" font-size="10" fill="#2a5a88" font-style="italic" transform="rotate(42 846 650)">the Ashwater</text>
+
+  <!-- RAILS: Cinderfell -> Marrow Halt -> Coalmarch -> Downs -> Lowmeads -> Ironmere; branch to Saltgate -->
+  <g stroke="#2a1a0a" stroke-width="1.6" fill="none">
+    <path d="M620,462 C680,470 730,480 780,500 C850,525 900,560 950,600 C990,640 1010,660 1024,672"/>
+    <path d="M620,468 C680,476 730,486 780,506 C850,531 900,566 950,606 C990,646 1010,666 1024,678"/>
+    <path d="M900,565 C880,650 880,740 886,818"/>
+    <path d="M906,566 C886,650 886,740 892,818"/>
+    <path d="M900,560 C950,500 990,440 1020,396"/>
+    <path d="M906,562 C956,502 996,442 1026,398"/>
+  </g>
+  <circle cx="700" cy="478" r="5" fill="#f3ead6" stroke="#2a1a0a" stroke-width="1.5"/><text x="708" y="503" font-size="11" fill="#2a1a0a" font-weight="bold">Marrow Halt</text><text x="708" y="515" font-size="9" fill="#2a1a0a">market town, a day out</text>
+  <text x="845" y="690" font-size="10" fill="#2a1a0a" font-style="italic" transform="rotate(45 845 690)">rails · three weeks by freight</text>
+  <text x="960" y="470" font-size="10" fill="#2a1a0a" font-style="italic" transform="rotate(-55 960 470)">to Emberlock</text>
+  <text x="880" y="760" font-size="10" fill="#2a1a0a" font-style="italic" transform="rotate(86 880 760)">branch to Saltgate</text>
+
+  <!-- high winds -->
+  <path d="M60,130 C200,100 400,70 560,90 C760,110 900,170 1100,200" fill="none" stroke="#6a7a8a" stroke-width="2" stroke-dasharray="8,5" marker-end="url(#arrow)"/>
+  <path d="M60,160 C200,130 400,100 560,120 C760,140 900,200 1100,230" fill="none" stroke="#6a7a8a" stroke-width="2" stroke-dasharray="8,5" marker-end="url(#arrow)"/>
+  <text x="700" y="160" font-size="11" fill="#4a5a6a" font-style="italic">the high winds and the aether drift, off the Shelf Sea, over the Range, east to the Downs; the Windrow Clans follow them</text>
+
+  <!-- the north and the east, unnamed -->
+  <text x="700" y="230" font-size="11" fill="#7a6a4a" font-style="italic">north of Grayfold: the cold, and a fort nobody is posted to twice</text>
+  <text x="1160" y="520" text-anchor="end" font-size="11" fill="#7a6a4a" font-style="italic">east: the provinces go on to a steppe the rails have not reached</text>
+
+  <!-- compass -->
+  <g transform="translate(1110,120)">
+    <circle r="30" fill="#f3ead6" stroke="#5a4a32" stroke-width="1.2"/>
+    <path d="M0,-26 L6,0 L0,26 L-6,0 Z" fill="#5a4a32"/>
+    <text x="0" y="-34" text-anchor="middle" font-size="12" fill="#3a2e1c">N</text>
+  </g>
+  <!-- scale -->
+  <g transform="translate(680,640)">
+    <line x1="0" y1="0" x2="180" y2="0" stroke="#3a2e1c" stroke-width="2"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#3a2e1c" stroke-width="2"/><line x1="90" y1="-5" x2="90" y2="5" stroke="#3a2e1c" stroke-width="2"/><line x1="180" y1="-5" x2="180" y2="5" stroke="#3a2e1c" stroke-width="2"/>
+    <text x="0" y="18" font-size="11" fill="#3a2e1c">0</text><text x="90" y="18" text-anchor="middle" font-size="11" fill="#3a2e1c">100 miles</text><text x="180" y="18" text-anchor="end" font-size="11" fill="#3a2e1c">200</text>
+    <text x="0" y="34" font-size="10" fill="#6a5a3a" font-style="italic">Cinderfell to Ironmere about 900 miles; the Range sixty to eighty miles deep</text>
+  </g>
+  <!-- legend -->
+  <g transform="translate(660,700)" font-size="11" fill="#3a2e1c">
+    <rect x="0" y="0" width="190" height="124" fill="#f8f2e2" stroke="#5a4a32" stroke-width="0.8"/>
+    <text x="10" y="18" font-weight="bold">Legend</text>
+    <ellipse cx="20" cy="36" rx="10" ry="6" fill="#a9c48a" stroke="#4a6a2a"/><text x="38" y="40">sealed vale</text>
+    <rect x="10" y="48" width="20" height="12" fill="url(#seam)"/><text x="38" y="58">aether seams</text>
+    <line x1="10" y1="74" x2="30" y2="74" stroke="#4a3a2a" stroke-width="2.5" stroke-dasharray="6,4"/><text x="38" y="78">the Ashen Line</text>
+    <line x1="10" y1="92" x2="30" y2="92" stroke="#2a1a0a" stroke-width="1.6"/><line x1="10" y1="96" x2="30" y2="96" stroke="#2a1a0a" stroke-width="1.6"/><text x="38" y="97">rails</text>
+    <line x1="10" y1="112" x2="30" y2="112" stroke="#6a7a8a" stroke-width="2" stroke-dasharray="6,4"/><text x="38" y="116">the high winds</text>
+  </g>
+</svg>

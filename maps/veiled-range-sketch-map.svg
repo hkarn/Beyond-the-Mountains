@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#8a7a5a" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="field" width="10" height="10" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="5" x2="10" y2="5" stroke="#6f8f55" stroke-width="0.8"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- parchment -->
+  <rect width="1200" height="900" fill="#f3ead6"/>
+  <rect x="14" y="14" width="1172" height="872" fill="none" stroke="#5a4a32" stroke-width="2"/>
+  <rect x="20" y="20" width="1160" height="860" fill="none" stroke="#5a4a32" stroke-width="0.8"/>
+
+  <!-- title -->
+  <text x="600" y="58" text-anchor="middle" font-size="28" fill="#3a2e1c" font-weight="bold">The Veiled Range and Cinderfell</text>
+  <text x="600" y="82" text-anchor="middle" font-size="15" fill="#5a4a32" font-style="italic">a sketch map for the draft, not to scale in detail · north is up · DRAFT 2026-11-08</text>
+
+  <!-- the plain -->
+  <rect x="640" y="110" width="520" height="740" fill="#e9e3cc"/>
+  <text x="1150" y="800" text-anchor="end" font-size="15" fill="#7a6a4a" font-style="italic">the plain · the Concord's provinces, weeks of rail</text>
+
+  <!-- THE VEILED RANGE: wide band, west and north -->
+  <path d="M40,110 L560,110 L600,220 L580,330 L620,440 L600,560 L640,680 L600,850 L40,850 Z" fill="#cdbfa0" stroke="#7a6a4a" stroke-width="2"/>
+  <path d="M40,110 L560,110 L600,220 L580,330 L620,440 L600,560 L640,680 L600,850 L40,850 Z" fill="url(#hatch)" opacity="0.55"/>
+  <!-- ridge lines -->
+  <g stroke="#6a5a3a" stroke-width="1.4" fill="none" opacity="0.8">
+    <path d="M80,160 l40,-30 l35,40 l30,-45 l40,35 l35,-30 l45,50 l30,-40 l40,30 l30,-35 l40,45 l40,-40 l40,40"/>
+    <path d="M60,300 l35,-40 l30,35 l35,-50 l45,40 l30,-30 l40,45 l35,-40 l40,35"/>
+    <path d="M70,470 l40,-35 l30,45 l35,-50 l40,40 l30,-35 l40,50 l35,-40 l45,35 l40,-45 l40,40"/>
+    <path d="M80,640 l35,-40 l35,40 l30,-50 l45,45 l35,-35 l40,45 l35,-40 l45,40"/>
+    <path d="M90,800 l35,-35 l30,40 l40,-50 l40,40 l35,-30 l45,45 l35,-40 l45,35"/>
+  </g>
+  <text x="130" y="135" font-size="22" fill="#4a3a22" font-weight="bold" letter-spacing="3">THE VEILED RANGE</text>
+  <text x="130" y="156" font-size="13" fill="#6a5a3a" font-style="italic">the Lid of the Sky, to those inside it</text>
+
+  <!-- the seven Quiet Vales -->
+  <g font-size="13" fill="#3a4a2a" text-anchor="middle">
+    <ellipse cx="150" cy="240" rx="42" ry="26" fill="#b8c8a0" stroke="#5a6a3a" stroke-width="1.2"/><text x="150" y="245">I</text>
+    <ellipse cx="300" cy="200" rx="40" ry="24" fill="#b8c8a0" stroke="#5a6a3a" stroke-width="1.2"/><text x="300" y="205">II</text>
+    <ellipse cx="120" cy="400" rx="38" ry="26" fill="#b8c8a0" stroke="#5a6a3a" stroke-width="1.2"/><text x="120" y="405">III</text>
+    <ellipse cx="170" cy="700" rx="44" ry="26" fill="#b8c8a0" stroke="#5a6a3a" stroke-width="1.2"/><text x="170" y="705">V</text>
+    <ellipse cx="330" cy="780" rx="40" ry="24" fill="#b8c8a0" stroke="#5a6a3a" stroke-width="1.2"/><text x="330" y="785">VI</text>
+    <ellipse cx="470" cy="700" rx="36" ry="24" fill="#b8c8a0" stroke="#5a6a3a" stroke-width="1.2"/><text x="470" y="705">VII</text>
+  </g>
+  <text x="300" y="840" font-size="12" fill="#5a6a3a" font-style="italic">the seven Quiet Vales, numbered at the Sealing; sealed six generations ago, charts blank</text>
+
+  <!-- HOLLOW VALE (IV): larger, with detail -->
+  <path d="M250,420 C300,370 420,360 470,410 C520,460 500,560 440,590 C380,620 290,600 260,540 C240,500 230,450 250,420 Z" fill="#a9c48a" stroke="#4a6a2a" stroke-width="2"/>
+  <path d="M250,420 C300,370 420,360 470,410 C520,460 500,560 440,590 C380,620 290,600 260,540 C240,500 230,450 250,420 Z" fill="url(#field)" opacity="0.6"/>
+  <text x="350" y="400" text-anchor="middle" font-size="17" fill="#2a4a1a" font-weight="bold">HOLLOW VALE (IV)</text>
+  <!-- river going under the rock -->
+  <path d="M275,450 C320,470 330,520 300,560 C290,575 285,585 290,595" fill="none" stroke="#4a7aa8" stroke-width="2" stroke-dasharray="0" />
+  <path d="M290,595 C295,605 300,612 310,618" fill="none" stroke="#4a7aa8" stroke-width="2" stroke-dasharray="4,4"/>
+  <!-- hamlets -->
+  <g fill="#3a2a1a">
+    <rect x="300" y="430" width="8" height="8"/><rect x="310" y="433" width="6" height="6"/>
+    <rect x="390" y="470" width="8" height="8"/><rect x="400" y="473" width="6" height="6"/>
+    <rect x="330" y="545" width="8" height="8"/><rect x="340" y="548" width="6" height="6"/>
+  </g>
+  <text x="318" y="427" font-size="10" fill="#3a2a1a">hamlet</text>
+  <text x="408" y="467" font-size="10" fill="#3a2a1a">hamlet</text>
+  <text x="348" y="542" font-size="10" fill="#3a2a1a">hamlet</text>
+  <!-- stone ring -->
+  <circle cx="360" cy="500" r="9" fill="none" stroke="#3a2a1a" stroke-width="2" stroke-dasharray="3,3"/>
+  <text x="372" y="504" font-size="10" fill="#3a2a1a">the stone ring</text>
+  <!-- eastern pastures and scree -->
+  <text x="438" y="545" font-size="10" fill="#3a4a2a" font-style="italic">eastern pastures</text>
+  <path d="M455,520 l20,-30 l10,25 Z" fill="#c8b890" stroke="#6a5a3a"/>
+  <text x="452" y="585" font-size="10" fill="#6a5a3a">scree</text>
+
+  <!-- THE SCAR on the eastern wall -->
+  <path d="M478,495 l16,-30 l6,34 Z" fill="#8a3a2a" stroke="#4a1a0a" stroke-width="1.5"/>
+  <text x="586" y="522" font-size="12" fill="#6a1a0a" font-weight="bold">the Scar · Q.V. IV</text>
+  <text x="586" y="535" font-size="10" fill="#6a1a0a">summit, cairn, plate; the Goat Ledge fell on Day 0</text>
+
+  <!-- ASHEN LINE along the outer foot: dotted line with cairns -->
+  <path d="M585,120 L620,230 L600,335 L640,445 L620,565 L660,690 L620,850" fill="none" stroke="#4a3a2a" stroke-width="2.5" stroke-dasharray="10,6"/>
+  <g fill="#4a3a2a">
+    <circle cx="608" cy="190" r="4"/><circle cx="608" cy="290" r="4"/><circle cx="624" cy="400" r="4"/><circle cx="630" cy="520" r="4"/><circle cx="645" cy="640" r="4"/><circle cx="636" cy="780" r="4"/>
+  </g>
+  <text x="652" y="300" font-size="13" fill="#4a3a2a" font-weight="bold" transform="rotate(78 652 300)">THE ASHEN LINE · ward-cairns</text>
+
+  <!-- Sappers' Stair: thin track along the inner faces to the cairn at the Scar -->
+  <path d="M560,470 C545,490 535,500 500,500" fill="none" stroke="#4a3a2a" stroke-width="1.2" stroke-dasharray="2,3"/>
+  <text x="540" y="518" font-size="10" fill="#4a3a2a" font-style="italic" text-anchor="end">Sappers' Stair, from Blackpost's upper gate</text>
+
+  <!-- Blackpost Station -->
+  <rect x="548" y="456" width="22" height="18" fill="#6a5a4a" stroke="#2a1a0a" stroke-width="1.5"/>
+  <text x="576" y="446" font-size="12" fill="#2a1a0a" font-weight="bold">Blackpost Station</text>
+  <text x="576" y="459" font-size="10" fill="#2a1a0a">garrison, wire-house, quarry gangs</text>
+
+  <!-- ASHEN ROAD: from Blackpost down past the Scar's foot to Cinderfell -->
+  <path d="M559,474 C575,500 580,520 575,540 C570,560 600,600 650,640 C700,680 740,700 760,712" fill="none" stroke="#3a2a1a" stroke-width="3"/>
+  <!-- the Scar's foot -->
+  <circle cx="574" cy="536" r="5" fill="#8a3a2a" stroke="#2a1a0a"/>
+  <text x="586" y="552" font-size="10" fill="#6a1a0a">the Scar's foot, where the outer face meets the road</text>
+  <text x="604" y="602" font-size="12" fill="#3a2a1a" font-weight="bold" transform="rotate(42 604 602)">THE ASHEN ROAD · 20 miles</text>
+  <text x="552" y="508" font-size="9" fill="#3a2a1a" transform="rotate(70 552 508)">3 mi</text>
+
+  <!-- CINDERFELL -->
+  <g>
+    <!-- tiers as stacked terraces up the hill toward the north -->
+    <path d="M760,712 L900,712 L910,760 L750,760 Z" fill="#9a8a7a" stroke="#2a1a0a" stroke-width="1.2"/>
+    <path d="M775,664 L885,664 L900,712 L760,712 Z" fill="#8a7a6a" stroke="#2a1a0a" stroke-width="1.2"/>
+    <path d="M795,616 L865,616 L885,664 L775,664 Z" fill="#7a6a5a" stroke="#2a1a0a" stroke-width="1.2"/>
+    <!-- bluff and moorings -->
+    <path d="M800,560 L860,560 L865,616 L795,616 Z" fill="#b8b0a0" stroke="#2a1a0a" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <g stroke="#2a1a0a" stroke-width="1">
+      <line x1="812" y1="585" x2="812" y2="560"/><line x1="830" y1="590" x2="830" y2="558"/><line x1="848" y1="585" x2="848" y2="562"/>
+    </g>
+    <ellipse cx="812" cy="552" rx="9" ry="5" fill="#dcd4c0" stroke="#2a1a0a"/>
+    <ellipse cx="830" cy="548" rx="10" ry="5" fill="#dcd4c0" stroke="#2a1a0a"/>
+    <ellipse cx="848" cy="553" rx="8" ry="4" fill="#dcd4c0" stroke="#2a1a0a"/>
+    <!-- chimneys -->
+    <g fill="#2a1a0a"><rect x="770" y="728" width="4" height="22"/><rect x="800" y="724" width="4" height="26"/><rect x="840" y="730" width="4" height="20"/><rect x="875" y="726" width="4" height="24"/></g>
+    <!-- gate -->
+    <rect x="752" y="728" width="12" height="14" fill="#2a1a0a"/>
+  </g>
+  <text x="920" y="560" font-size="20" fill="#2a1a0a" font-weight="bold">CINDERFELL</text>
+  <text x="920" y="577" font-size="12" fill="#3a2a1a">Concord frontier city at the Range's foot</text>
+  <g font-size="10.5" fill="#2a1a0a">
+    <text x="920" y="604">Sky-Moorings: windward bluff, tether-posts,</text>
+    <text x="920" y="617">clan tents, the Line's watch-tower</text>
+    <text x="920" y="640">Upper Tiers: Frontier Office, Collegium</text>
+    <text x="920" y="653">chapterhouse, survey house</text>
+    <text x="920" y="676">Middle Tiers: the Rookery and the Half-Deck,</text>
+    <text x="920" y="689">Carrow's press, Middle market, rail terminus</text>
+    <text x="920" y="712">Lower Tiers: Lower Gate, Marla's yard, Stoker's Row,</text>
+    <text x="920" y="725">the Slip Gauge, Rail Yards, the ash-pits</text>
+  </g>
+  <line x1="916" y1="606" x2="864" y2="588" stroke="#2a1a0a" stroke-width="0.8"/>
+  <line x1="916" y1="642" x2="866" y2="640" stroke="#2a1a0a" stroke-width="0.8"/>
+  <line x1="916" y1="678" x2="886" y2="688" stroke="#2a1a0a" stroke-width="0.8"/>
+  <line x1="916" y1="714" x2="904" y2="736" stroke="#2a1a0a" stroke-width="0.8"/>
+
+  <!-- rails across the plain -->
+  <g stroke="#2a1a0a" stroke-width="1.6" fill="none">
+    <path d="M905,740 L1150,740"/>
+    <path d="M905,746 L1150,746"/>
+  </g>
+  <g stroke="#2a1a0a" stroke-width="1">
+    <line x1="930" y1="738" x2="930" y2="748"/><line x1="960" y1="738" x2="960" y2="748"/><line x1="990" y1="738" x2="990" y2="748"/><line x1="1020" y1="738" x2="1020" y2="748"/><line x1="1050" y1="738" x2="1050" y2="748"/><line x1="1080" y1="738" x2="1080" y2="748"/><line x1="1110" y1="738" x2="1110" y2="748"/><line x1="1140" y1="738" x2="1140" y2="748"/>
+  </g>
+  <text x="1150" y="766" text-anchor="end" font-size="11" fill="#2a1a0a" font-style="italic">rails to the provinces, twice daily</text>
+  <!-- wire-line -->
+  <path d="M559,470 C640,470 700,560 760,700" fill="none" stroke="#8a6a2a" stroke-width="1" stroke-dasharray="1,3"/>
+  <text x="722" y="612" font-size="10" fill="#8a6a2a" font-style="italic" transform="rotate(58 722 612)">wire-line to the Office, an hour</text>
+
+  <!-- high winds / drift -->
+  <path d="M700,150 C780,130 860,160 940,140 C1020,120 1100,150 1160,135" fill="none" stroke="#9aa8b8" stroke-width="2" stroke-dasharray="8,5" marker-end="url(#arrow)"/>
+  <path d="M700,190 C780,170 860,200 940,180 C1020,160 1100,190 1160,175" fill="none" stroke="#9aa8b8" stroke-width="2" stroke-dasharray="8,5" marker-end="url(#arrow)"/>
+  <text x="700" y="215" font-size="11" fill="#6a7a8a" font-style="italic">the high winds and the aether drift; the Windrow strings ride them; the Line fires on any that cross the Range</text>
+
+  <!-- compass -->
+  <g transform="translate(1100,470)">
+    <circle r="34" fill="#f3ead6" stroke="#5a4a32" stroke-width="1.2"/>
+    <path d="M0,-30 L7,0 L0,30 L-7,0 Z" fill="#5a4a32"/>
+    <text x="0" y="-38" text-anchor="middle" font-size="12" fill="#3a2e1c">N</text>
+  </g>
+
+  <!-- scale -->
+  <g transform="translate(700,830)">
+    <line x1="0" y1="0" x2="200" y2="0" stroke="#3a2e1c" stroke-width="2"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#3a2e1c" stroke-width="2"/>
+    <line x1="100" y1="-5" x2="100" y2="5" stroke="#3a2e1c" stroke-width="2"/>
+    <line x1="200" y1="-5" x2="200" y2="5" stroke="#3a2e1c" stroke-width="2"/>
+    <text x="0" y="20" font-size="11" fill="#3a2e1c">0</text>
+    <text x="100" y="20" text-anchor="middle" font-size="11" fill="#3a2e1c">10 miles</text>
+    <text x="200" y="20" text-anchor="end" font-size="11" fill="#3a2e1c">20</text>
+    <text x="0" y="36" font-size="10" fill="#6a5a3a" font-style="italic">the Ashen Road: half a day by steam-cart, two days on foot</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(740,250)" font-size="11" fill="#3a2e1c">
+    <rect x="0" y="0" width="300" height="118" fill="#f8f2e2" stroke="#5a4a32" stroke-width="0.8"/>
+    <text x="10" y="18" font-weight="bold">Legend</text>
+    <ellipse cx="20" cy="36" rx="10" ry="6" fill="#b8c8a0" stroke="#5a6a3a"/><text x="38" y="40">sealed vale (people inside, unwritten)</text>
+    <path d="M12,54 l8,-14 l4,16 Z" fill="#8a3a2a"/><text x="38" y="58">the Scar, the one crack in the Sealing</text>
+    <line x1="10" y1="72" x2="30" y2="72" stroke="#4a3a2a" stroke-width="2.5" stroke-dasharray="6,4"/><text x="38" y="76">the Ashen Line and its ward-cairns: survey land, closed</text>
+    <line x1="10" y1="90" x2="30" y2="90" stroke="#3a2a1a" stroke-width="3"/><text x="38" y="94">the Ashen Road (garrison road)</text>
+    <line x1="10" y1="108" x2="30" y2="108" stroke="#2a1a0a" stroke-width="1.6"/><line x1="10" y1="112" x2="30" y2="112" stroke="#2a1a0a" stroke-width="1.6"/><text x="38" y="113">rails</text>
+  </g>
+</svg>
