@@ -19,7 +19,7 @@ This is a public repository. `main` is the easily visible history, so it holds o
 - anything about DreamGen mechanics, rules, tokens, builds, imports or the Studio workflow
 - decision logs and source material for the work (for example the premise and the model draft it came from)
 
-Never add it to git, never reference scratchpad paths from tracked files, and do not copy its contents into tracked files without the user's say-so.
+Never add it to git, never reference scratchpad or DreamGen-Studio from tracked files. Keep DreamGen references to a minimum. The final deliverable is a stand-alone player handbook for the universe.
 
 ## What this repository is
 
