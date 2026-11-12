@@ -11,19 +11,25 @@ This is a public repository. `main` is the easily visible history, so it holds o
 - Branches are public once pushed. Push a branch only when the user says so.
 - Commit and push only when the user asks.
 
+## What belongs here
+
+- This repository holds player handbooks for the universe and pure stories. A more specific adaptation, such as a role-play scenario, belongs in its own repository.
+- Never reference private repositories, in tracked files, issues or pull requests. The README may name the adaptation planned as the first milestone, but not where it is built.
+- Be mindful of which parts of a prose creative process suit a fully tracked git workflow, even when transparency is desired. Rough drafting, brainstorming and the back-and-forth of decisions are often better kept out of the public history; what lands in git is the finished piece.
+
 ## Local-only material: `scratchpad/`
 
 `scratchpad/` is gitignored and exists only on the author's computer. Put there anything that should not be public or does not belong in the handbook:
 
 - handoff documents and session notes
-- anything about DreamGen mechanics, rules, tokens, builds, imports or the Studio workflow
+- material for an adaptation: its mechanics, rules, builds and tooling
 - decision logs and source material for the work (for example the premise and the model draft it came from)
 
-Never add it to git, never reference scratchpad or DreamGen-Studio from tracked files. Keep DreamGen references to a minimum. The final deliverable is a stand-alone player handbook for the universe.
+Never add it to git, and never reference it from tracked files. The final deliverable is a stand-alone player handbook for the universe.
 
 ## What this repository is
 
-A readers' and players' lore handbook for *Beyond the Mountains*. The game build lives in the separate DreamGen Studio repository. Planned layout: `lore/`, `maps/`, `stories/`. Content is CC BY 4.0 with stated exceptions and code is MIT; see `LICENSING.md`.
+A readers' and players' lore handbook for *Beyond the Mountains*, and in time its stories. Planned layout: `lore/`, `maps/`, `stories/`. Content is CC BY 4.0 with stated exceptions and code is MIT; see `LICENSING.md`.
 
 ## The @claude workflow on GitHub
 

@@ -5,7 +5,8 @@ A lore handbook for players and readers of the world of *Beyond the Mountains*: 
 ## What this is
 
 - **Origin.** The world comes from a novella the author once wrote and no longer has. The novella did not get far, but the world behind it held several stories, and it is being rebuilt here from the ground up. What has been made so far is judged to be on the right track.
-- **Scope.** World reference, written for readers: the lore, the maps and gazetteer, the places, the people and the factions. Later, published stories. Not the game machinery: the DreamGen role-play scenarios set in this world are built in the [DreamGen Studio](https://github.com/hkarn/DreamGen-Studio) repository, whose story folder holds the game build and its rules and points here for the world.
+- **Scope.** World reference, written for readers: the lore, the maps and gazetteer, the places, the people and the factions. Later, published stories. Not game machinery: adaptations such as role-play scenarios are built in their own repositories, not here.
+- **First milestone.** A world coherent enough to write a DreamGen AI role-play scenario on it, in a separate repository.
 - **Status.** Draft stage. Files marked DRAFT, in the name or in a header, are being honed as prose and can change or go. Nothing is fixed canon yet; when something is, it will say so.
 
 ## Layout, as planned
