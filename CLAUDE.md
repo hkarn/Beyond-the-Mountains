@@ -24,3 +24,8 @@ Never add it to git, never reference scratchpad or DreamGen-Studio from tracked 
 ## What this repository is
 
 A readers' and players' lore handbook for *Beyond the Mountains*. The game build lives in the separate DreamGen Studio repository. Planned layout: `lore/`, `maps/`, `stories/`. Content is CC BY 4.0 with stated exceptions and code is MIT; see `LICENSING.md`.
+
+## The @claude workflow on GitHub
+
+- A `@claude` mention in an issue runs `.github/workflows/claude.yml`, which is read-only. Only when running in that workflow (the prompt says you are helping with a GitHub issue, and Bash/Edit/Write are denied): review the issue against the content on `main`; if it's already done or no longer applies, say so and suggest closing it; otherwise reply with a concrete plan (files, steps, open questions). Don't try to change files or push there. Every other session, wherever it runs, works on issues as usual.
+- Copilot reads `.github/copilot-instructions.md`, which points to this file; keep the rules here, not there.
