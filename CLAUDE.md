@@ -10,6 +10,7 @@ This is a public repository. `main` is the easily visible history, so it holds o
 - Do not rewrite or force-push `main`. Branches may be rebased or force-pushed freely.
 - Branches are public once pushed. Push a branch only when the user says so.
 - Commit and push only when the user asks.
+- Unpublished and draft work lives on its own branch, not on `main`, so before starting work, check the other branches (`git branch -a`, after a fetch) for anything related: a draft may exist only locally, never on the remote. Look at what a relevant branch holds (`git log main..<branch>`, `git show <branch>:<path>`) instead of assuming `main` is the whole picture. The author keeps the number of simultaneous branches small, so this stays cheap; if the branch list gets long, ask which ones matter rather than scanning them all.
 
 ## What belongs here
 
