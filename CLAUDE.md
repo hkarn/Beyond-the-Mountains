@@ -10,7 +10,7 @@ This is a public repository. `main` is the easily visible history, so it holds o
 - Assign every pull request you open to `hkarn`, so it shows up in the owner's GitHub views: `gh pr create --assignee hkarn`, or `gh pr edit <N> --add-assignee hkarn` for a pull request opened another way (a GitHub MCP tool, or a draft the environment opened).
 - Review comments, from Copilot or a person: check each claim against the text first, fix what is real in a new commit, and reply on the thread with what you found and what changed (or why nothing did). Never resolve a conversation; the owner does.
 - Never merge, approve or enable auto-merge on a pull request; the owner's merge is the approval.
-- Sign everything you post on GitHub (pull request descriptions, issues, comments and review replies) with a last line `🤖 Generated with [Claude Code](https://claude.com/claude-code)`.
+- Claude Code signs everything it posts on GitHub (pull request descriptions, issues, comments and review replies) with a last line `🤖 Generated with [Claude Code](https://claude.com/claude-code)`. This line is Claude Code's alone: Copilot and other reviewers or agents reading this file don't add it.
 - Do not rewrite or force-push `main`. Branches may be rebased or force-pushed freely.
 - Branches are public once pushed. Push a branch only when the user says so.
 - Commit and push only when the user asks.
