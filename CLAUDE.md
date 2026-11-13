@@ -7,6 +7,7 @@ This is a public repository. `main` is the easily visible history, so it holds o
 - Never commit work in progress to `main`, and never push drafts to it.
 - Work on a branch named by kind and topic: `draft/<topic>` for lore and world drafts, `fix/<topic>` and `feat/<topic>` otherwise. Commit as messily as needed there.
 - When a piece is ready, open a pull request and merge it with **Squash and merge**, so `main` gets one clean commit per finished piece. Write that commit message as a release-quality summary of the piece, not of the steps.
+- Assign every pull request you open to `hkarn`, so it shows up in the owner's GitHub views: `gh pr create --assignee hkarn`, or `gh pr edit <N> --add-assignee hkarn` for one opened another way (a GitHub MCP tool, or a draft the environment opened).
 - Do not rewrite or force-push `main`. Branches may be rebased or force-pushed freely.
 - Branches are public once pushed. Push a branch only when the user says so.
 - Commit and push only when the user asks.
